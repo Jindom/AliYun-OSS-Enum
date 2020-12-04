@@ -26,18 +26,18 @@ def oss_upload(location,bucketname):
     sample_file = os.path.abspath(os.path.dirname(os.path.abspath(__file__)) + os.path.sep + ".") + "/upload_sample.txt"
     bucket = oss2.Bucket(auth,location,bucketname)
     bucket.put_object_from_file('sample_file.txt',sample_file)
-    print("\033[1;32m 示例文件上传成功\033[0m")
+    print("\033[1;32m 匿名上传示例文件成功\033[0m")
 
 def oss_list(location,bucketname):
     bucket = oss2.Bucket(auth,location,bucketname)
     for b in islice(oss2.ObjectIterator(bucket), 5):
         print(b.key)
-    print("\033[1;32m 尝试列举成功，已显示最近的5个文件\033[0m")
+    print("\033[1;32m 匿名尝试列举目录成功，已显示最近的5个文件\033[0m")
 
 def oss_delete(location,bucketname):
     bucket = oss2.Bucket(auth,location,bucketname)
     bucket.delete_object('sample_file.txt')
-    print("\033[1;32m 尝试删除示例文件成功\033[0m")
+    print("\033[1;32m 匿名尝试删除示例文件成功\033[0m")
 
 if __name__ == '__main__':
     try:
