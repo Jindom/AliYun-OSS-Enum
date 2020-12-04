@@ -1,6 +1,6 @@
 # AliYun_OSS_Enum
 
-This tools is for AliYun OSS permission check and enumeration. 
+This tools is for AliYun OSS permission check and enumeration for upload listing and delete action. 
 A bucket with inappropriate permission configuration may cause information leakage and economic loss.
 
 ## Usage
