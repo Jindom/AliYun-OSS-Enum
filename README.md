@@ -18,4 +18,4 @@ python3 AliYun_OSS_Enum.py http://oss-cn-zhangjiakou.aliyuncs.com example_bucket
 ```
 
 
-![](https://i.imgur.com/d7AmhuK.png)
+![](https://i.imgur.com/MMJYuBV.png)
