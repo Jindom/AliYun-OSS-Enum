@@ -1,5 +1,8 @@
 # AliYun_OSS_Enum
 
+This tools is for AliYun OSS permission check.
+A bucket with inappropriat permission configration may cause information leakage and economic loss.
+
 ## Usage
 
 ### Please make sure install aliyun oss python package first:
