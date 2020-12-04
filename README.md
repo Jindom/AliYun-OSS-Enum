@@ -6,7 +6,9 @@
 ```
 pip3 install oss2
 ```
-### Download this Repo and Run the AliYun_OSS_Enum.py file, example:
+### Download this Repo and Run the AliYun_OSS_Enum.py file
+### Also don't forget to input your AliYun API Key to the file, you may get your API in 
+```https://ram.console.aliyun.com/manage/ak```
 
 ```
 git clone https://github.com/Jindom/AliYun_OSS_Enum
