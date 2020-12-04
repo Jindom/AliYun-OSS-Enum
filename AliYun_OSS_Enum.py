@@ -52,7 +52,6 @@ if __name__ == '__main__':
         print("用户退出...")
     except Exception as ex:
         if "The bucket you are attempting to access must be addressed using the specified endpoint" in str(ex):
-            print(json.loads(str(ex).replace("\'", "\""))["details"]["Endpoint"])
             print("\033[1;31m 请确认OSS地区是否输入正确\033[0m")
             print("\033[1;34m API返回正确的地区应为\033[0m http://" + json.loads(str(ex).replace("\'", "\""))["details"]["Endpoint"] )
             sys.exit()
