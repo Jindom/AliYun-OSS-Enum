@@ -10,7 +10,7 @@ A bucket with inappropriate permission configuration may cause information leaka
 pip3 install oss2
 ```
 ### Download this Repo and Run the AliYun_OSS_Enum.py file
-### Also don't forget to input your AliYun API Key to the file, you may get your API in 
+### Also don't forget to put your AliYun API Key to the file, you may get your API in 
 ```https://ram.console.aliyun.com/manage/ak```
 
 ```
